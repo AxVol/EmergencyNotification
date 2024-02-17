@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8D36E63C-CAA0-4CEB-B207-B8D441271645}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E1C80DAA-7A5E-4C33-A3F9-B9A0C3B9BC30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FF8FBD44-1277-441E-81CF-84FCD972B97D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmergencyNotification.API", "EmergencyNotification.API\EmergencyNotification.API.csproj", "{5D2CBE47-455F-425A-970A-63EBC0F6D5BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmergencyNotification.Domain", "EmergencyNotification.Domain\EmergencyNotification.Domain.csproj", "{A952C86D-62B1-4DD2-92BD-7ED6EB79C05D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D2CBE47-455F-425A-970A-63EBC0F6D5BE} = {E1C80DAA-7A5E-4C33-A3F9-B9A0C3B9BC30}
+		{A952C86D-62B1-4DD2-92BD-7ED6EB79C05D} = {8D36E63C-CAA0-4CEB-B207-B8D441271645}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D2CBE47-455F-425A-970A-63EBC0F6D5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2CBE47-455F-425A-970A-63EBC0F6D5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2CBE47-455F-425A-970A-63EBC0F6D5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2CBE47-455F-425A-970A-63EBC0F6D5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A952C86D-62B1-4DD2-92BD-7ED6EB79C05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A952C86D-62B1-4DD2-92BD-7ED6EB79C05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A952C86D-62B1-4DD2-92BD-7ED6EB79C05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A952C86D-62B1-4DD2-92BD-7ED6EB79C05D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
